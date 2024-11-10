@@ -1,5 +1,5 @@
 ActiveAdmin.register Customer do
-  permit_params :full_name, :phone_number, :email_address, :notes
+  permit_params :full_name, :phone_number, :email_address, :notes, :image
   remove_filter :image_attachment, :image_blob
 
   form do |f|
